@@ -1,18 +1,19 @@
 # Medical Visualization
 
- ```
  
--Reading DICOM Images
--Two Modes of Visualization:
-   1- Surface Rendering Mode
-   2- Ray Casting Mode
+### DICOM-VIEWER with VTK & Qt
+
+ 
+* Reading DICOM Images
+* Two Modes of Visualization:
+   * Surface Rendering Mode
+   * Ray Casting Mode
    
- ```
- 
- 
- ```
- Surface Rendering Mode "Ankle"
- ```
+ <br>
+
+## Surface Rendering Mode "Ankle"
+<br>
+
  <table>
   <tr>
     <td>IS0 Value = 500</td>
@@ -26,11 +27,11 @@
   </tr>
  </table>
  
+ ---
+ <br> 
  
- 
- ```
- Surface Rendering Mode "Head"
- ```
+## Surface Rendering Mode "Head"
+ <br>
  <table>
   <tr>
     <td>IS0 Value = 249</td>
@@ -44,10 +45,11 @@
   </tr>
  </table>
 
+---
+<br>
 
- ```
- Ray Casting Mode "Ankle"
- ```
+ ## Ray Casting Mode "Ankle"
+
  <table>
   <tr>
     <td><img src="Images/12.png" width=1000 height=500></td>  
@@ -63,9 +65,11 @@
   </tr>
  </table>
 
- ```
- Ray Casting Mode "Head"
- ```
+---
+<br>
+
+ ## Ray Casting Mode "Head"
+
  <table>
   <tr>
     <td><img src="Images/8.png" width=1000 height=500></td>  
@@ -73,6 +77,6 @@
   <tr>
     <td><img src="Images/10.png" width=1000 height=500></td>
   </tr>
- </table>
+ </table><br>
  
  
