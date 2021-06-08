@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>529</width>
-    <height>474</height>
+    <width>525</width>
+    <height>476</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -52,7 +52,28 @@
      </item>
      <item row="5" column="1">
       <layout class="QGridLayout" name="gridLayout_2">
-       <item row="10" column="2">
+       <item row="12" column="3">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>0.5</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="2">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Green Compnent</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>500</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="2">
         <spacer name="verticalSpacer_5">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -65,7 +86,7 @@
          </property>
         </spacer>
        </item>
-       <item row="3" column="2">
+       <item row="4" column="2">
         <widget class="QSlider" name="horizontalSlider">
          <property name="maximum">
           <number>2000</number>
@@ -84,29 +105,15 @@
          </property>
         </widget>
        </item>
-       <item row="12" column="3">
-        <widget class="QLabel" name="label_8">
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>30</string>
+          <string>Iso Value</string>
          </property>
         </widget>
        </item>
-       <item row="9" column="3">
-        <widget class="QLabel" name="label_7">
-         <property name="text">
-          <string>50</string>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="2">
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>Green Compnent</string>
-         </property>
-        </widget>
-       </item>
-       <item row="13" column="2">
-        <spacer name="verticalSpacer_2">
+       <item row="11" column="2">
+        <spacer name="verticalSpacer_4">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -118,7 +125,33 @@
          </property>
         </spacer>
        </item>
-       <item row="6" column="2">
+       <item row="8" column="2">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="7" column="2">
+        <widget class="QSlider" name="TissueSlider">
+         <property name="maximum">
+          <number>1150</number>
+         </property>
+         <property name="value">
+          <number>500</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="2">
         <widget class="QSlider" name="horizontalSlider_2">
          <property name="maximum">
           <number>100</number>
@@ -134,94 +167,7 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="2">
-        <widget class="QLabel" name="label_3">
-         <property name="text">
-          <string>Red Compnent</string>
-         </property>
-        </widget>
-       </item>
-       <item row="12" column="2">
-        <widget class="QSlider" name="horizontalSlider_4">
-         <property name="maximum">
-          <number>100</number>
-         </property>
-         <property name="sliderPosition">
-          <number>30</number>
-         </property>
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="3">
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>500</string>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="2">
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>Blue Compnent</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="2">
-        <spacer name="verticalSpacer_4">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="2" column="2">
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>Iso Value</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="2">
-        <spacer name="verticalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="1" column="2">
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="6" column="3">
-        <widget class="QLabel" name="label_6">
-         <property name="text">
-          <string>100</string>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="2">
+       <item row="13" column="2">
         <widget class="QSlider" name="horizontalSlider_3">
          <property name="maximum">
           <number>100</number>
@@ -234,12 +180,93 @@
          </property>
         </widget>
        </item>
+       <item row="5" column="2">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
        <item row="0" column="2">
         <widget class="QLabel" name="label_9">
          <property name="text">
-          <string>                                                  </string>
+          <string/>
          </property>
         </widget>
+       </item>
+       <item row="9" column="3">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Red Compnent</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="3">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>0.3</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLabel" name="TissueLabel">
+         <property name="text">
+          <string>Tissue Point</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="2">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Blue Compnent</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>500</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="2">
+        <widget class="QSlider" name="horizontalSlider_4">
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="sliderPosition">
+          <number>30</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </item>
@@ -251,7 +278,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>529</width>
+     <width>525</width>
      <height>22</height>
     </rect>
    </property>
