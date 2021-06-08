@@ -20,9 +20,9 @@
     <td>IS0 Value = 0</td>
   </tr>
   <tr>
-    <td><img src="Images/2.png" width=295 height=500></td>
-    <td><img src="Images/3.png" width=295 height=500></td>
-    <td><img src="Images/4.png" width=295 height=500></td>
+    <td><img src="Images/2.png" width=300 height=500></td>
+    <td><img src="Images/3.png" width=300 height=500></td>
+    <td><img src="Images/4.png" width=300 height=500></td>
   </tr>
  </table>
  
@@ -38,9 +38,9 @@
     <td>IS0 Value = 1747</td>
   </tr>
   <tr>
-    <td><img src="Images/6.png" width=295 height=500></td>
-    <td><img src="Images/5.png" width=295 height=500></td>
-    <td><img src="Images/7.png" width=295 height=500></td>
+    <td><img src="Images/6.png" width=300 height=500></td>
+    <td><img src="Images/5.png" width=300 height=500></td>
+    <td><img src="Images/7.png" width=300 height=500></td>
   </tr>
  </table>
 
