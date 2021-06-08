@@ -262,7 +262,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
 def main():
     path = os.getcwd()
-    os.chdir(path + '/data')
+    os.chdir(path + '/Data')
     directory = os.getcwd()
     app = QtWidgets.QApplication(sys.argv)
     w = MainWindow()
