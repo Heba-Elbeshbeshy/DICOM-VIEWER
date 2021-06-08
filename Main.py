@@ -74,6 +74,7 @@ class MainWindow(QtWidgets.QMainWindow):
         if ID == 0:
             val = self.Slider[ID].value()
             self.surfaceExtractor.SetValue(0, val)
+            iren.update()
         
         # Transfer_Func.    
         elif ID == 1:
@@ -84,6 +85,7 @@ class MainWindow(QtWidgets.QMainWindow):
             BVal=self.volumeColor.GetBlueValue(self.Tspt)
             self.volumeColor.RemovePoint(self.Tspt)
             self.volumeColor.AddRGBPoint(self.Tspt,  val, GVal , BVal)
+            iren.update()
                
         elif ID == 2:
             val = self.Slider[ID].value()/100.0
@@ -93,6 +95,7 @@ class MainWindow(QtWidgets.QMainWindow):
             BVal=self.volumeColor.GetBlueValue(self.Tspt)
             self.volumeColor.RemovePoint(self.Tspt)
             self.volumeColor.AddRGBPoint(self.Tspt,  RVal, val , BVal)
+            iren.update()
 
         elif ID == 3:
             val = self.Slider[ID].value()/100.0
@@ -102,8 +105,8 @@ class MainWindow(QtWidgets.QMainWindow):
             GVal=self.volumeColor.GetGreenValue(self.Tspt) 
             self.volumeColor.RemovePoint(self.Tspt)
             self.volumeColor.AddRGBPoint(self.Tspt,  RVal, GVal , val)
-
-        iren.update()
+   
+            iren.update()
 
     ##########################################            
     def Surface_Rendering(self):
